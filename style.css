@@ -1,17 +1,18 @@
 .page1 {
     position: relative;
     background-image: url(./img/backgrounf-img.png);
-    height: 100vh;
+    height: 110vh;
     padding-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .site-nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     padding-right: 234px;
     padding-top: 40px;
     margin-bottom: 110px;
+    margin-left: 500px;
 }
 
 .nav-list {
@@ -29,10 +30,13 @@
     font-size: 18px;
     line-height: 24px;
     color: gray;
+    border: none;
+    border-bottom: 2px solid transparent;
 }
 
 .site-nav__link:hover {
     color: black;
+    border-bottom: 4px solid rgb(29, 162, 240);
 }
 
 .line {
@@ -42,15 +46,13 @@
     top: 85px;
 }
 
-.line:hover {
-    background-color: rgb(29, 162, 240);
-}
+.line:hover {}
 
 .site-nav__button {
     text-decoration: none;
     background-color: #1617DB;
     border-radius: 6px;
-    padding: 15px 30px;
+    padding: 15px 50px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -73,7 +75,7 @@
 
 .hero-suptitle {
     position: absolute;
-    top: -10px;
+    top: -20px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 12px;
