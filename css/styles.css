@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sections {
+    position: relative;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date_title {
+    padding-top: 50px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.date_paragrif {
+    text-align: center;
+    width: 700px;
+    margin-left: 300px;
+    padding-top: 30px;
+    line-height: 2;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.header_list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards_list {
+    margin-top: 50px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+.card_title {
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card_paragrif {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.watch_link {
+    margin-top: 1000px;
+    margin-left: -50px;
+    text-decoration: none;
+    color: blue;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
